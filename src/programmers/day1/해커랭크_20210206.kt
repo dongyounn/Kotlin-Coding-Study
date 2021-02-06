@@ -26,7 +26,19 @@ import kotlin.text.*
 
 fun gradingStudents(grades: Array<Int>): Array<Int> {
     // Write your code here
-
+    val resultList = ArrayList<Int>()
+    grades.forEach {
+        val restValue = it.rem(10)
+        resultList.add(
+            if (restValue != 0 && it >= 35) {
+                if (5.minus(restValue.rem(5)) < 3) {
+                    it.plus(5 - restValue.rem(5))
+                } else
+                    it
+            } else it
+        )
+    }
+    return resultList.toTypedArray()
 }
 
 fun main(args: Array<String>) {
