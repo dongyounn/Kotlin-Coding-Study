@@ -2,7 +2,7 @@ package study.programmers
 
 import java.util.*
 
-fun solution7(priorities: IntArray, location: Int): Int {
+fun solution202102210(priorities: IntArray, location: Int): Int {
     val que = LinkedList<Pair<Int, Int>>()
     priorities.forEachIndexed { index, i ->
         que.offer(Pair(index, i))

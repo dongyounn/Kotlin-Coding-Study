@@ -1,9 +1,9 @@
-package study.programmers
+package study.programmers.retry
 
-// 체육
+// 체육복
 // https://programmers.co.kr/learn/courses/30/lessons/42862
 // 복습
-
+//
 fun solution202102202(n: Int, lost: IntArray, reserve: IntArray): Int {
     var result = n
     val lostSet = lost.toSet().minus(reserve.toSet())
@@ -18,6 +18,7 @@ fun solution202102202(n: Int, lost: IntArray, reserve: IntArray): Int {
     }
     return result
 }
+
 
 fun main(array: Array<String>) {
     solution202102202(
