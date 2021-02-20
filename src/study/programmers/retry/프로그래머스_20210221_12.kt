@@ -8,9 +8,9 @@ import java.lang.StringBuilder
 * 복습
 * */
 
-fun solution2021022111(n: Int): Int {
+fun solution2021022112(n: Int): Int {
     val list = ArrayList<Int>()
-    for (i in 0..n) {
+    for (i in 1..n) {
         if (n.rem(i) == 0) {
             list.add(i)
         }
@@ -18,6 +18,8 @@ fun solution2021022111(n: Int): Int {
     return list.sum()
 }
 
+fun 다른방법2021022112(n: Int) = (1..n).filter { n.rem(it) == 0 }.sum()
+
 fun main(array: Array<String>) {
-    solution2021022111(12)
+    solution2021022112(12)
 }
