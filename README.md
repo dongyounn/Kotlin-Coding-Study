@@ -1,7 +1,13 @@
-# koding_study
+![header](https://capsule-render.vercel.app/api?type=wave&color=auto&height=300&section=header&text=KOTLIN%20STUDY&fontSize=90&animation=fadeIn&fontAlignY=38)
 
-## **Koding** = <u>Kotlin</u> + <u>Coding</u>
+### 코틀린이 편해지기 위한 코딩 공부
 
-### 개인 코틀린 공부 - 프로그래머스, 해커랭크 ... 코틀린을 익히자
+##### 퇴근 이후 코딩 문제 1문제씩 풀 (프로그래머스, 해커랭크 .. ) 
 
-1. 날짜별 정리 예정
+
+## 프로그래머스 
+1. 1단계 - 문제 풀이 완료 
+2. 2단계 - 진행 주우웅 
+
+## 해커랭크
+1. 일부 풀다가 중지....
