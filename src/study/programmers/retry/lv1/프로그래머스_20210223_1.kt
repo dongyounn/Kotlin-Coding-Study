@@ -1,4 +1,4 @@
-package study.programmers.retry
+package study.programmers.retry.lv1
 
 /*
 * 평균구하기

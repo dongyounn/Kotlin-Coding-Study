@@ -1,4 +1,4 @@
-package study.programmers.retry
+package study.programmers.retry.lv1
 
 /*
 * x만큼 간격이 있는 n개의 숫자

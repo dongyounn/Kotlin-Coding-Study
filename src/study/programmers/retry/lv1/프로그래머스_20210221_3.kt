@@ -1,4 +1,4 @@
-package study.programmers.retry
+package study.programmers.retry.lv1
 // https://programmers.co.kr/learn/courses/30/lessons/12910// 복습
 // 나누어 떨어지는 숫자 배
 // 복습

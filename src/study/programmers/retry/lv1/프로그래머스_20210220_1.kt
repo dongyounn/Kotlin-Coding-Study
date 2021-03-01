@@ -1,4 +1,4 @@
-package study.programmers.retry
+package study.programmers.retry.lv1
 
 // K번째 수
 // https://programmers.co.kr/learn/courses/30/lessons/42748

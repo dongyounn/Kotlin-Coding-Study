@@ -1,4 +1,4 @@
-package study.programmers.retry
+package study.programmers.retry.lv1
 
 import kotlin.math.max
 import kotlin.math.min

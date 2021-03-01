@@ -1,4 +1,4 @@
-package study.programmers.retry
+package study.programmers.retry.lv1
 
 // https://programmers.co.kr/learn/courses/30/lessons/68935
 // 3진법 뒤집기
