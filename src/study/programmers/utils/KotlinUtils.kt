@@ -12,3 +12,14 @@ fun gcd(a: Int, b: Int): Int {
 fun lcm(a: Int, b: Int): Int {
     return a.times(b).div(gcd(a, b))
 }
+
+// 소수 여부 체크
+fun Int.isPrime(): Boolean {
+    for (i in 2..this - 2) {
+        if (this % i == 0) {
+            return false
+        }
+    }
+    if (this <= 1) return false
+    return true
+}
