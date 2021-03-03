@@ -6,7 +6,7 @@ package study.hackerrank
 * 해커랭크
 * */
 fun bonAppetit(bill: Array<Int>, k: Int, b: Int): Unit {
-    b.minus(bill.filter { it != bill[k] }.sum().div(2)).let {
+    b.minus((bill.sum().minus(bill[k])).div(2)).let {
         println(
             if (it == 0) {
                 "Bon Appetit"
