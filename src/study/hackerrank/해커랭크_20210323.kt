@@ -4,6 +4,7 @@ import java.util.*
 
 //https://www.hackerrank.com/challenges/utopian-tree/problem?isFullScreen=true
 
+// fold 스트림 ? 초깃값을 정하고 이후 작업 수행
 // Complete the utopianTree function below.
 fun utopianTree(n: Int): Int {
     return (0..n).fold(
