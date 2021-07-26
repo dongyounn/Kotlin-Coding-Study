@@ -9,7 +9,7 @@ import kotlin.math.abs
 * */
 // Complete the hurdleRace function below.
 fun hurdleRace(k: Int, height: Array<Int>): Int {
-    k.minus(height.max()!!).let {
+    k.minus(height.maxOrNull()!!).let {
         return if (it >= 0) {
             0
         }else

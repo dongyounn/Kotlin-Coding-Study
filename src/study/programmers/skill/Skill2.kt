@@ -10,7 +10,7 @@ fun solutionSkill2(tickets: Array<Array<String>>): Array<String> {
     val result = ArrayList<String>()
     val temp = tickets.toMutableList()
     repeat(tickets.size) {
-        temp.filter { it[0] == next }.minBy { it[1] }!!.let {
+        temp.filter { it[0] == next }.minByOrNull { it[1] }!!.let {
             next = it[1]
             result.add(it[0])
             if (temp.size == 1) {

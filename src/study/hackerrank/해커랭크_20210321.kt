@@ -21,7 +21,7 @@ fun pickingNumbers(a: Array<Int>): Int {
             }
         }
     }
-    return resultList[resultMap.keys.min()]?:a.count()
+    return resultList[resultMap.keys.minOrNull()]?:a.count()
 }
 
 fun main(args: Array<String>) {

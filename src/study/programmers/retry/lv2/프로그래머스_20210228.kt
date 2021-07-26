@@ -6,7 +6,7 @@ package study.programmers.retry.lv2
 * */
 
 fun solution20210228(s: String): String = s.split(" ").map { it.toLong() }.let {
-    "${it.min()} ${it.max()}"
+    "${it.minOrNull()} ${it.maxOrNull()}"
 }
 
 fun main(args: Array<String>) {

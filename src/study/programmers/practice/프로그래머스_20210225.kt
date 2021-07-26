@@ -2,7 +2,7 @@ package study.programmers.practice
 
 fun solution20210225(s: String): String {
     s.split(" ").map { it.toLong() }.sortedDescending().let {
-        return "${it.min()} ${it.max()}"
+        return "${it.minOrNull()} ${it.maxOrNull()}"
     }
 }
 

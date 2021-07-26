@@ -19,7 +19,7 @@ fun getMoneySpent(keyboards: Array<Int>, drives: Array<Int>, b: Int): Int {
             }
         }
     }
-    return resultList.max() ?: -1
+    return resultList.maxOrNull() ?: -1
 }
 
 fun main(args: Array<String>) {
